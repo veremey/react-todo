@@ -14,6 +14,7 @@ class ItemStatusFilter extends Component {
         const buttons = this.buttons.map(({name, label}) => {
             const isActive = filter === name;
             const clazz = isActive ? 'btn-info' : 'btn-outline-secondary';
+
             return (
                 <button type="button"
                         key={name}
